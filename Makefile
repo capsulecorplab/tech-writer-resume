@@ -7,7 +7,7 @@ USE_DOCKER ?= true
 
 # Utility
 pdfout     := $(OUTDIR)/$(NAME).pdf
-htmlout    := $(OUTDIR)/$(NAME).html
+htmlout    := $(OUTDIR)/index.html
 pkgout     := $(OUTDIR)/$(NAME).html.tar.gz
 
 # Docker (if USE_DOCKER is "true")
